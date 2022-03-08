@@ -13,10 +13,9 @@
 　・event.cljs<br>
 　・views.cljs<br>
 
-[ ~/resource/public/ ]<br>
+[ ~/resource/public/css ]<br>
 
-　・index.html<br>
-　・css/style.css<br>
+　・style.css<br>
 
 　※以下のファイル群は数が多いのでアップロードしてません。<br>
 
