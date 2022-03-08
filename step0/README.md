@@ -82,7 +82,7 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 ```
 
 コンパイルが完了すると、ディレクトリ「resource/public/js/compiled」が生成され、その配下にファイルがたんまり生成される。<br>
-その配下に、411 項目、18.6 MB 分くらいのファイル群になる。<br><br>
+411 項目、18.6 MB 分くらいのファイル群になる。<br><br>
 
 以下、プロジェクト作成時に、自動生成された README.md の内容。<br><br>
 
