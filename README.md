@@ -11,7 +11,7 @@ Step3: TODO 完了/取消し<br>
 Step4: TODO 削除<br>
 Step5: TODO 編集<br>
 
-![test](https://github.com/gima326/re-frame-todolist/blob/main/readme_img/todo_img.png)
+![todo](https://github.com/gima326/re-frame-todolist/blob/main/readme_img/todo_img.png)
 
 ## References
 
