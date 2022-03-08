@@ -6,10 +6,11 @@
 
 ### 〜編集対象ファイル〜
 
-[ ~/src/re_frame_todolist ]
-・core.cljs
-・db.cljs
-・views.cljs
-・subs.cljs
+[ ~/src/re_frame_todolist ]<br>
+
+　・core.cljs<br>
+　・db.cljs<br>
+　・views.cljs<br>
+　・subs.cljs<br>
 
 ![todo](https://github.com/gima326/re-frame-todolist/blob/main/readme_img/step1.png)
