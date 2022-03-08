@@ -1,9 +1,4 @@
-# re-frame-todolist
-
-A [re-frame](https://github.com/day8/re-frame) application designed to ... well, that part is up to
-you.
-
-### Step0: プロジェクト作成
+# Step0: プロジェクト作成
 
 ```sh
 $ lein new re-frame re-frame-todolist
@@ -65,19 +60,10 @@ $ npx shadow-cljs watch app
 ・"Hello from re-frame" が表示されることを確認する。
 
 
+# re-frame-todolist
 
-
-
-
-
-
-
-
-
-
-
-
-
+A [re-frame](https://github.com/day8/re-frame) application designed to ... well, that part is up to
+you.
 
 ## Getting Started
 
