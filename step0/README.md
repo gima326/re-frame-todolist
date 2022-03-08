@@ -23,7 +23,9 @@ $ npx shadow-cljs watch app
 The required namespace "react-dom" is not available, it was required by "reagent/dom.cljs".
 ```
 
-参照追加し、エラーを解消する。
+エラーを解消するべく、参照を追加する。<br>
+npm コマンドを実行したタイミングで、ディレクトリ「node_modules」が生成され、その配下に JS ファイルがたんまり生成される。<br>
+100 項目、3.7 MB 分くらいのファイル群になる。<br>
 
 ```sh
 $ npm install react-dom
