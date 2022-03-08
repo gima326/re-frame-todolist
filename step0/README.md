@@ -1,5 +1,12 @@
 # Step0: プロジェクト作成
 
+### Step0 でやっていること
+
+・re-frame プロジェクトを作成する。<br>
+・実行に必要な、不足しているライブラリへの参照を追加する。<br>
+・[ http://localhost:8280/ ] にアクセスして、"Hello from re-frame" が表示されることを確認する。<br><br>
+
+
 ```sh
 $ lein new re-frame re-frame-todolist
 
@@ -55,9 +62,6 @@ $ npm install react
 $ npx shadow-cljs watch app
 ...
 ```
-
-・[ http://localhost:8280/ ] にアクセスする。<br>
-・"Hello from re-frame" が表示されることを確認する。<br>
 
 以下、プロジェクト作成時に、自動生成された README.md の内容。<br><br>
 
