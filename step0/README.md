@@ -56,8 +56,8 @@ $ npx shadow-cljs watch app
 ...
 ```
 
-・[ ]http://localhost:8280/ ] にアクセスする。
-・"Hello from re-frame" が表示されることを確認する。
+・[ http://localhost:8280/ ] にアクセスする。<br>
+・"Hello from re-frame" が表示されることを確認する。<br>
 
 
 # re-frame-todolist
