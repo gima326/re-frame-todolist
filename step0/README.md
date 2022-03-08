@@ -6,6 +6,7 @@
 ・実行に必要な、不足しているライブラリへの参照を追加する。<br>
 ・[ http://localhost:8280/ ] にアクセスして、"Hello from re-frame" が表示されることを確認する。<br><br>
 
+![todo](https://github.com/gima326/re-frame-todolist/blob/main/readme_img/step0.png)
 
 ```sh
 $ lein new re-frame re-frame-todolist
