@@ -17,7 +17,6 @@
   [:li (:title todo)])
 
 (defn todo-list []
-  [:p "aiueo"]
   [:ul
    (map
     (fn [[idx todo]] ^{:key (:id todo)} [list-todo-item todo])
