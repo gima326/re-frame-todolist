@@ -12,10 +12,11 @@
 　・event.cljs<br>
 　・views.cljs<br>
 
-[ ~/resource/public/css/ ]<br>
+[ ~/resource/public/ ]<br>
 
-　・style.css<br>
-
+　・index.html<br>
+　・css/style.css<br>
+ 
 　※以下のファイル群は数が多いのでアップロードしてません。<br>
 
 　　[ ~/node_modules/* ]<br>
