@@ -3,6 +3,82 @@
 A [re-frame](https://github.com/day8/re-frame) application designed to ... well, that part is up to
 you.
 
+### Step0: プロジェクト作成
+
+```sh
+$ lein new re-frame re-frame-todolist
+
+Generating re-frame project.
+```
+
+エラーになる
+
+```sh
+$ cd re-frame-todolist
+$ npx shadow-cljs watch app
+...
+
+The required namespace "react-dom" is not available, it was required by "reagent/dom.cljs".
+```
+
+参照追加し、エラーを解消する
+
+```sh
+$ npm install react-dom
+...
+
+re-frame-todolist@ ~/re-frame-todolist
+├── UNMET DEPENDENCY react@17.0.2　　        <-- ここがマズいみたい
+└─┬ react-dom@17.0.2
+  ├─┬ loose-envify@1.4.0
+  │ └── js-tokens@4.0.0
+  ├── object-assign@4.1.1
+  └── scheduler@0.20.2
+
+npm WARN react-dom@17.0.2 requires a peer of react@17.0.2 but none was installed.
+
+```
+
+まだ解消しない
+
+```sh
+$ npx shadow-cljs watch app
+...
+
+The required JS dependency "react" is not available, it was required by "node_modules/react-dom/cjs/react-dom.production.min.js".
+```
+
+参照追加し、エラーを解消する
+
+```sh
+$ npm install react
+```
+
+"app" は Build id で、[ shadow-cljs.edn ]に記載しているものと一致させる必要がある。<br>
+
+```sh
+$ npx shadow-cljs watch app
+...
+```
+
+・[ ]http://localhost:8280/ ] にアクセスする。
+・"Hello from re-frame" が表示されることを確認する。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Getting Started
 
 ### Project Overview
