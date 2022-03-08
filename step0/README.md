@@ -6,7 +6,7 @@ $ lein new re-frame re-frame-todolist
 Generating re-frame project.
 ```
 
-エラーになる
+さっそく実行してみるも、エラーになる。
 
 ```sh
 $ cd re-frame-todolist
@@ -16,7 +16,7 @@ $ npx shadow-cljs watch app
 The required namespace "react-dom" is not available, it was required by "reagent/dom.cljs".
 ```
 
-参照追加し、エラーを解消する
+参照追加し、エラーを解消する。
 
 ```sh
 $ npm install react-dom
@@ -34,7 +34,7 @@ npm WARN react-dom@17.0.2 requires a peer of react@17.0.2 but none was installed
 
 ```
 
-まだ解消しない
+…まだなにか問題があるみたい。
 
 ```sh
 $ npx shadow-cljs watch app
@@ -43,7 +43,7 @@ $ npx shadow-cljs watch app
 The required JS dependency "react" is not available, it was required by "node_modules/react-dom/cjs/react-dom.production.min.js".
 ```
 
-参照追加し、エラーを解消する
+さらに参照追加してみて、様子をみる。
 
 ```sh
 $ npm install react
@@ -59,6 +59,7 @@ $ npx shadow-cljs watch app
 ・[ http://localhost:8280/ ] にアクセスする。<br>
 ・"Hello from re-frame" が表示されることを確認する。<br>
 
+以下、プロジェクト作成時に、自動生成された README.md の内容。<br><br>
 
 # re-frame-todolist
 
