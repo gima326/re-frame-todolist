@@ -13,9 +13,9 @@
 　・views.cljs<br>
 　・subs.cljs<br>
 
-　※以下のファイル群はアップロードしてません。<br>
+　※以下のファイル群は数が多いのでアップロードしてません。<br>
 
 　　[ ~/node_modules/* ]<br>
-　　[ ~/resource/public/js/compiled/** ]<br>
+　　[ ~/resource/public/js/compiled/* ]<br>
 
 ![todo](https://github.com/gima326/re-frame-todolist/blob/main/readme_img/step1.png)
