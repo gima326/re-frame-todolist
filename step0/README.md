@@ -49,7 +49,8 @@ npm WARN react-dom@17.0.2 requires a peer of react@17.0.2 but none was installed
 $ npx shadow-cljs watch app
 ...
 
-The required JS dependency "react" is not available, it was required by "node_modules/react-dom/cjs/react-dom.production.min.js".
+The required JS dependency "react" is not available, 
+it was required by "node_modules/react-dom/cjs/react-dom.production.min.js".
 ```
 
 さらに参照追加してみて、様子をみる。
@@ -62,8 +63,26 @@ $ npm install react
 
 ```sh
 $ npx shadow-cljs watch app
-...
+
+npx: installed 97 in 8.678s
+shadow-cljs - config: ~/shadow-cljs.edn
+shadow-cljs - updating dependencies
+shadow-cljs - dependencies updated
+shadow-cljs - HTTP server available at http://localhost:8280
+shadow-cljs - HTTP server available at http://localhost:8290
+shadow-cljs - server version: 2.17.8 running at http://localhost:9630
+shadow-cljs - nREPL server started on port 8777
+shadow-cljs - watching build :app
+[:app] Configuring build.
+[:app] Compiling ...
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[:app] Build completed. (203 files, 202 compiled, 0 warnings, 14.44s)
 ```
+
+コンパイルが完了すると、ディレクトリ「resource/public/js/compiled」が生成され、その配下にファイルがたんまり生成される。<br>
+その配下に、411 項目、18.6 MB 分くらいのファイル群になる。<br><br>
 
 以下、プロジェクト作成時に、自動生成された README.md の内容。<br><br>
 
