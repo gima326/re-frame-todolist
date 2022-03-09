@@ -22,10 +22,10 @@
 　　[ ~/node_modules/* ]<br>
 　　[ ~/resource/public/js/compiled/* ]<br>
 
-・編集
+### 〜編集〜
 ![todo](https://github.com/gima326/re-frame-todolist/blob/main/readme_img/step5-1.png)
 ![todo](https://github.com/gima326/re-frame-todolist/blob/main/readme_img/step5-2.png)
 
-・確認
+### 〜確認〜
 ![todo](https://github.com/gima326/re-frame-todolist/blob/main/readme_img/step5-3.png)
 ![todo](https://github.com/gima326/re-frame-todolist/blob/main/readme_img/step5-4.png)
