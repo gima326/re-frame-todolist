@@ -28,7 +28,7 @@ src/re_frame_todolist
 [ core.cljs ] ---> [ config.cljs ]
        ├──-------> [ views.cljs  ] ---> [ subs.cljs ]
        |                  |
-       |                  ├──────────── [ 関数 re-frame/subscribe() ]
+       |                  ├───────────> [ 関数 re-frame/subscribe() ]
        |                  |                  | 
        |                  |                  | 【 views.cljs、subs.cljs から直接 db/default-db を参照せず、
        |                  |                  | 　関数 re-frame/subscribe() を介して re-frame が管理している「状態」を参照する。
