@@ -13,9 +13,9 @@ Step5: TODO 編集<br>
 
 ![todo](https://github.com/gima326/re-frame-todolist/blob/main/readme_img/todo_img.png)
 
-In `src`, there's a matching set of files (each small):
+In `src/re_frame_todolist`, there's a matching set of files (each small):
 ```
-src
+src/re_frame_todolist
 ├── config.cljs
 ├── core.cljs         <--- entry point, plus history
 ├── db.cljs           <--- data related  (data layer)
