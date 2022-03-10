@@ -26,10 +26,10 @@ src/re_frame_todolist
 
 ```
 [ core.cljs ] ---> [ config.cljs ]
-              ---> [ views.cljs ] ---> [ subs.cljs ]
-                         |
-                         v
-              ---> [ events.cljs ] ---> [ db.cljs ]
+       ├──-------> [ views.cljs  ] ---> [ subs.cljs ]
+       |                  |
+       |                  v
+       └──-------> [ events.cljs ] ---> [ db.cljs   ]
 ```
 
 ## References
