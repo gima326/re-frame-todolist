@@ -32,7 +32,7 @@ src/re_frame_todolist
        |                  |                  | 
        |                  |                  | 【 views.cljs、subs.cljs から直接 db/default-db を参照せず、
        |                  |                  | 　関数 re-frame/subscribe() を介して re-frame が管理している「状態」を参照する。
-       |                  |                  | 　そして、subs.cljs で定義されている関数に、引数としてその参照値（状態）を渡している。 】
+       |                  |                  | 　そして subs.cljs で定義されている関数の引数として、その参照値（状態）を渡す。 】
        |                  |                  | 
        |                  v                  v
        └──-------> [ events.cljs ] ---> [ db.cljs ]
