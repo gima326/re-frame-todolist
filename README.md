@@ -13,6 +13,25 @@ Step5: TODO 編集<br>
 
 ![todo](https://github.com/gima326/re-frame-todolist/blob/main/readme_img/todo_img.png)
 
+In `src`, there's a matching set of files (each small):
+```
+src
+├── config.cljs
+├── core.cljs         <--- entry point, plus history
+├── db.cljs           <--- data related  (data layer)
+├── subs.cljs         <--- subscription handlers  (query layer)
+├── views.cljs        <--- reagent  components (view layer)
+└── events.cljs       <--- event handlers (control/update layer)
+```
+
+```
+[ core.cljs ] ---> [ config.cljs ]
+              ---> [ views.cljs ] ---> [ subs.cljs ]
+                         |
+                         v
+              ---> [ events.cljs ] ---> [ db.cljs ]
+```
+
 ## References
 
 - 「[Re−frame 入門][1]」<br>
